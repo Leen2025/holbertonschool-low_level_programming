@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 * main - Prints the frist 52 fibonacci number
 * Return: Nothing!

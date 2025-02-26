@@ -1,14 +1,14 @@
 #include "main.h"
-#include <stdio.h>
 /**
-* _puts - Prints a string followed by a new line to stdout
-* @str: Pointer to the string
+* _puts - prints a string followed by a new line
+* @str: pointer to the string to be printed
 */
 void _puts(char *str)
 {
-for (; *str != '\0'; str++)
+while (*str)
 {
-putchar(*str);
+_putchar(*str);
+str++;
 }
-putchar('\n');
+_putchar('\n');
 }

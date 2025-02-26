@@ -1,4 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
 void _puts(char *str);
-#endif 
+int _putchar(char c);
+#endif /* MAIN_H */

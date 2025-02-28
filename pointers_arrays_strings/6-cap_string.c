@@ -6,8 +6,7 @@
 */
 char *cap_string(char *str)
 {
-int i = 0, j;
-char separators[] = " \t\n,;.!?\"(){}";
+int i = 0;
 if (!str)
 return (str);
 while (str[i])
@@ -19,7 +18,7 @@ str[i - 1] == '"' || str[i - 1] == '(' || str[i - 1] == ')' ||
 str[i - 1] == '{' || str[i - 1] == '}')
 {
 if (str[i] >= 'a' && str[i] <= 'z')
-str[i] -= 32; /* Convert to uppercase */
+str[i] -= 32;
 }
 i++;
 }

@@ -1,5 +1,4 @@
 #ifndef MAIN_H
 #define MAIN_H
-int _atoi(char *s);
-int _putchar(char c);
+char *cap_string(char *);
 #endif /* MAIN_H */

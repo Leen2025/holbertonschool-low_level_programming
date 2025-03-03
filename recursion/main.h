@@ -1,5 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-void _print_rev_recursion(char *s);
+int factorial(int n);
 int _putchar(char c);
 #endif /* MAIN_H */

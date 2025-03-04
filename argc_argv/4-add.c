@@ -3,11 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 /**
-* main - Adds positive numbers passed as command-line arguments
-* @argc: Argument count
-* @argv: Argument vector (array of arguments)
-*
-* Return: 0 if successful, 1 if an error occurs (non-numeric input)
+* main - Prints the sum of args positive numbers
+* @argc: argument count
+* @argv: argument vector
+* Return: always zero
 */
 int main(int argc, char *argv[])
 {
@@ -16,7 +15,7 @@ unsigned int k, sum = 0;
 char *e;
 if (argc > 1)
 {
-for (i = 0; i < argc; i++)
+for (i = 1; i < argc; i++)
 {
 e = argv[i];
 for (k = 0; k < strlen(e); k++)

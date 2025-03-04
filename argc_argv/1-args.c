@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
-/** 
- * main - Print the number of args 
- * @argc: argument count 
- * @argv:argument vector 
+/**
+ * main - Print the number of args
+ * @argc: argument count
+ * @argv:argument vector
  *
  * Return: Always zero
  */

@@ -22,4 +22,12 @@ char *owner;
  * @owner: Owner to assign to the dog
  */
 void init_dog(struct dog *d, char *name, float age, char *owner);
+/**
+ * print_dog - Prints a struct dog
+ * @d: Pointer to struct dog to print
+ *
+ * Description: Prints the details of a struct dog. If an element is NULL,
+ * it prints (nil) instead. If d is NULL, it prints nothing.
+ */
+void print_dog(struct dog *d);
 #endif /* DOG_H */

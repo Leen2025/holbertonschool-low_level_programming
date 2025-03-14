@@ -8,12 +8,13 @@
  *
  * Description: This structure defines a dog with a name, age, and owner.
  */
-typedef struct dog
+struct dog
 {
 char *name;
 float age;
 char *owner;
-} dog_t;
+} ;
+typedef struct dog dog_t;
 /**
  * init_dog - Initializes a variable of type struct dog
  * @d: Pointer to struct dog to initialize

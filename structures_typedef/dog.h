@@ -31,4 +31,5 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
  * it prints (nil) instead. If d is NULL, it prints nothing.
  */
 void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
 #endif /* DOG_H */

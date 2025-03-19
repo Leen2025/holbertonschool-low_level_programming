@@ -1,4 +1,5 @@
 #include "3-calc.h"
+#include <stddef.h>
 /**
  * get_op_func - selects thr correct function to perform the operation.
  * @s: the operator passed as argument to the program
@@ -16,9 +17,9 @@ op_t ops[] = {
 {NULL, NULL}
 };
 int i = 0;
-while (ops[i].op != NULL)
-{
-if (*s == *(ops[i].op))
+while (ops[i].op)
+{		
+if (s[0] == ops[i].op[0] && s[1] == '\0')
 return (ops[i].f);
 i++;
 }

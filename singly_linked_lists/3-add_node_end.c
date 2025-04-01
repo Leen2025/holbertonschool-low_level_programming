@@ -31,7 +31,7 @@ new_node->next = *head;
 }
 else
 {
-new_node->next =NULL;
+new_node->next = NULL;
 last = *head;
 while (last->next)
 last = last->next;

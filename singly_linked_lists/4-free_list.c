@@ -16,6 +16,7 @@ while (head != NULL)
 {
 temp_variable = head;
 head = head->next;
+free(temp_variable->str);
 free(temp_variable);
 }
 free(head);

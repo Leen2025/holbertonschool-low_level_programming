@@ -5,7 +5,7 @@
  * list_len - Function that return the number of elements in a linked list.
  * @h: pointer to singlt link list.
  *
- * Return: number of elements. 
+ * Return: number of elements.
  */
 size_t list_len(const list_t *h)
 {

@@ -14,7 +14,7 @@ list_t *temp_variable;
 temp_variable = head;
 while (head != NULL)
 {
-temp_variable = head; 
+temp_variable = head;
 head = head->next;
 free(temp_variable);
 }

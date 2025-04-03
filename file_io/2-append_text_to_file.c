@@ -24,7 +24,7 @@ if (text_content)
 wwrite = write(file_descriptor, text_content, _strlen(text_content));
 if (wwrite == -1)
 return (-1);
-}	
+}
 close(file_descriptor);
 return (1);
 }
